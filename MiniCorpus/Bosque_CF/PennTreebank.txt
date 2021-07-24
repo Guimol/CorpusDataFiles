@@ -1,0 +1,54 @@
+#1 CF1-1 PT no governo
+(FRASE CF1-1 (UTT:acl (SUBJ:np (H:prop:PT:M_S: PT))
+                      (SA:pp (H:prp:em:::: em+)
+                             (P<:np (>N:art:o:M_S::artd: o)
+                                    (H:n:governo:M_S::: governo)))))
+
+#2 CF1-3 BRASÍLIA Pesquisa Datafolha publicada hoje revela um dado supreendente: recusando uma postura radical, a esmagadora maioria (77%) dos eleitores quer o PT participando do Governo Fernando Henrique Cardoso.
+(FRASE CF1-3 (STA:fcl (ADVL:np (H:prop:Brasília:F_S: Brasília))
+                      (SUBJ:np (H:n:Pesquisa_Datafolha:F_S::np-idf: Pesquisa_Datafolha)
+                               (N<:icl (P:vp 
+                                         (MV:v-pcp:publicar:F_S::: publicada))
+                                       (ADVL:advp 
+                                         (H:adv:hoje:::: hoje))))
+                      (P:vp (MV:v-fin:revelar:PR_3S_IND::: revela))
+                      (ACC:np (>N:art:um:M_S::arti: um)
+                              (H:n:dado:M_S::np-idf: dado)
+                              (N<:adjp (H:adj:surpreendente:M_S::ALT: supreendente))
+                              (;)
+                              (N<PRED:fcl 
+                                (ADVL:icl::::ger: 
+                                  (P:vp (MV:v-ger:recusar:::: recusando))
+                                  (ACC:np 
+                                    (>N:art:um:F_S::arti: uma)
+                                    (H:n:postura:F_S::np-idf: postura)
+                                    (N<:adjp 
+                                      (H:adj:radical:F_S::: radical))))
+                                (,)
+                                (SUBJ:np 
+                                  (>N:art:o:F_S::artd: a)
+                                  (>N:adj:esmagador:F_S::: esmagadora)
+                                  (H:n:maioria:F_S::anr_np-def: maioria)
+                                  ({)
+                                  (N<PRED:np 
+                                    (>N:num:77:M_P::card: 77)
+                                    (H:n:%:M_P::anr_np-count:anr_np-def: %))
+                                  (})
+                                  (N<:pp 
+                                    (H:prp:de:::: de+)
+                                    (P<:np 
+                                      (>N:art:o:M_P::artd: os)
+                                      (H:n:eleitor:M_P::np-def: eleitores))))
+                                (P:vp (MV:v-fin:querer:PR_3S_IND::: quer))
+                                (ACC:np (>N:art:o:M_S::artd: o)
+                                        (H:prop:PT:M_S::: PT))
+                                (OC:icl::::ger: 
+                                  (P:vp (MV:v-ger:participar:::: participando))
+                                  (PIV:pp 
+                                    (H:prp:de:::: de+)
+                                    (P<:np 
+                                      (>N:art:o:M_S::artd: o)
+                                      (H:n:governo:M_S::np-def:prop: Governo)
+                                      (N<:np 
+                                        (H:prop:Fernando_Henrique_Cardoso:M_S::: Fernando_Henrique_Cardoso)))))))
+                      (.)))

@@ -1,0 +1,139 @@
+#------------------------------------------------------------
+{
+  'source' => 'CF1-1 PT no governo',
+  'number' => 1,
+  'cod' => 'CETENFolha n=1 cad="Opinião" sec="opi" sem="94a"',
+  't' => [
+    'acl||UTT',
+    [
+      'np||SUBJ',
+      'prop(\'PT\' M S)||H::PT'
+    ],
+    [
+      'pp||AS',
+      'prp(\'em\' <sam->)||H::em',
+      [
+        'np||P<',
+        'art(\'o\' <-sam> <artd> M S)||>N::o',
+        'n(\'governo\' M S)||H::governo'
+      ]
+    ]
+  ]
+}
+
+
+
+#------------------------------------------------------------
+{
+  'source' => 'CF1-3 BRASÍLIA Pesquisa Datafolha publicada hoje revela um dado supreendente: recusando uma postura radical, a esmagadora maioria (77%) dos eleitores quer o PT participando do Governo Fernando Henrique Cardoso.',
+  'number' => 1,
+  'cod' => 'CETENFolha n=1 cad="Opinião" sec="opi" sem="94a" #W',
+  't' => [
+    'fcl||STA',
+    [
+      'np||ADVL',
+      'prop(\'Brasília\' F S)||H::Brasília'
+    ],
+    [
+      'np||SUBJ',
+      'n(\'Pesquisa_Datafolha\' <np-idf> F S)||H::Pesquisa_Datafolha',
+      [
+        'icl||N<',
+        [
+          'vp||P',
+          'v-pcp(\'publicar\' F S)||MV::publicada'
+        ],
+        [
+          'advp||ADVL',
+          'adv(\'hoje\')||H::hoje'
+        ]
+      ]
+    ],
+    [
+      'vp||P',
+      'v-fin(\'revelar\' PR 3S IND)||MV::revela'
+    ],
+    [
+      'np||ACC',
+      'art(\'um\' <arti> M S)||>N::um',
+      'n(\'dado\' <np-idf> M S)||H::dado',
+      [
+        'adjp||N<',
+        'adj(\'surpreendente\' <ALT> M S)||H::supreendente'
+      ],
+      'jjpunct(-:-)',
+      [
+        'fcl||N<PRED',
+        [
+          'icl(<ger>)||ADVL',
+          [
+            'vp||P',
+            'v-ger(\'recusar\')||MV::recusando'
+          ],
+          [
+            'np||ACC',
+            'art(\'um\' <arti> F S)||>N::uma',
+            'n(\'postura\' <np-idf> F S)||H::postura',
+            [
+              'adjp||N<',
+              'adj(\'radical\' F S)||H::radical'
+            ]
+          ]
+        ],
+        'jjpunct(-,-)',
+        [
+          'np||SUBJ',
+          'art(\'o\' <artd> F S)||>N::a',
+          'adj(\'esmagador\' F S)||>N::esmagadora',
+          'n(\'maioria\' <np-def?> F S)||H::maioria',
+          'jjpunct(-(-)',
+          [
+            'np||N<PRED',
+            'num(\'77\' <card> M P)||>N::77',
+            'n(\'%\' <np-count?> <np-def?> M P)||H::%'
+          ],
+          'jjpunct(-)-)',
+          [
+            'pp||N<',
+            'prp(\'de\' <sam->)||H::de',
+            [
+              'np||P<',
+              'art(\'o\' <-sam> <artd> M P)||>N::os',
+              'n(\'eleitor\' <np-def> M P)||H::eleitores'
+            ]
+          ]
+        ],
+        [
+          'vp||P',
+          'v-fin(\'querer\' PR 3S IND)||MV::quer'
+        ],
+        [
+          'np||ACC',
+          'art(\'o\' <artd> M S)||>N::o',
+          'prop(\'PT\' M S)||H::PT'
+        ],
+        [
+          'icl(<ger>)||OC',
+          [
+            'vp||P',
+            'v-ger(\'participar\')||MV::participando'
+          ],
+          [
+            'pp||PIV',
+            'prp(\'de\' <sam->)||H::de',
+            [
+              'np||P<',
+              'art(\'o\' <-sam> <artd> M S)||>N::o',
+              'n(\'governo\' <np-def> <prop> M S)||H::Governo',
+              [
+                'np||N<',
+                'prop(\'Fernando_Henrique_Cardoso\' M S)||H::Fernando_Henrique_Cardoso'
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    'jjpunct(-.-)'
+  ]
+}
